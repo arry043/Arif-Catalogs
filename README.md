@@ -21,7 +21,7 @@ A production-quality Product Catalog application built with modern web technolog
 
 ### 1. Clone & Install
 ```bash
-git clone (https://github.com/arry043/Arif-Catalogs.git)
+git clone https://github.com/arry043/Arif-Catalogs.git
 cd product-catalog
 
 # Setup Backend
