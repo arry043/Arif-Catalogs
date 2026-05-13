@@ -33,7 +33,7 @@ export const getProducts = async (req: Request, res: Response, next: NextFunctio
       validated.max_price = temp;
     }
 
-    // Convert tags to array if string
+    // Convert tags to array, string
     const tags = validated.tags ? (Array.isArray(validated.tags) ? validated.tags : [validated.tags]) : [];
 
     const result = await ProductService.getProducts({
