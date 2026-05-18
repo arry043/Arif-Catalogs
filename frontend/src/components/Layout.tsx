@@ -28,7 +28,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         </div>
       </header>
 
-      {/* Main Content */}
+      {/* Main Content  */}
       <main className="max-w-7xl mx-auto px-4 py-8 md:px-8">
         <StatsPanel />
         
